@@ -12,5 +12,8 @@ int main() {
     cout << "your input is:";
     cout << a << b << c;
 
+    printf("Please input some numbers:\n");
+    printf("Please input some numbers:\n");
+    printf("Please input some numbers:\n");
     return 0;
 }
