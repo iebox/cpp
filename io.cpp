@@ -3,11 +3,21 @@
 
 using namespace std;
 
-int main() {
-    int a, b, c;
+int my_plus(int a, int b) {
+    int c = a + b;
 
+    printf("a + b = %d", c);
+
+    return c;
+}
+
+int main() {
+    int sum = my_plus(10, 20);
+    cout << sum;
+    int a, b, c;
+    
     printf("Please input some numbers:\n");
-    cin >> a >> b >> c;
+    // cin >> a >> b >> c;
 
     cout << "your input is:";
     cout << a << b << c;
